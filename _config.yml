@@ -22,8 +22,8 @@ title: Mohammed Ayoub Chettouh
 email: qfl3x@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
              My personal github blog.
-baseurl: "/qfl3x.github.io/" # the subpath of your site, e.g. /blog
-url: "https://qfl3x@protonmail.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://qfl3x.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  qfl3x
 
