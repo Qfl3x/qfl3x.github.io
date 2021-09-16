@@ -28,7 +28,7 @@ url: "https://qfl3x.github.io" # the base hostname & protocol for your site, e.g
 github_username:  qfl3x
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
