@@ -298,7 +298,7 @@ We can also draw a nice plot:
 ![loss plot2](/assets/img.png)
 
 
-Bonus: You can run this using Google Colab using [this repo](https://github.com/shivak/julia-colab)
+Bonus: You can run this using Google Colab using [this repo](https://github.com/shivak/julia-colab).
 
 [Arabic Character Dataset]: https://www.kaggle.com/mloey1/ahcd1
 [MLDataPattern]: https://github.com/JuliaML/MLDataPattern.jl
