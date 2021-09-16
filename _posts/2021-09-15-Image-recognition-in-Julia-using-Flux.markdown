@@ -300,6 +300,8 @@ We can also draw a nice plot:
 
 Bonus: You can run this using Google Colab using [this repo](https://github.com/shivak/julia-colab).
 
+The whole file can be found at [This repository](https://github.com/Qfl3x/Arabic-Character-Recognition).
+
 [Arabic Character Dataset]: https://www.kaggle.com/mloey1/ahcd1
 [MLDataPattern]: https://github.com/JuliaML/MLDataPattern.jl
 
