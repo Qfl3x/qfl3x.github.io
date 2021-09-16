@@ -172,7 +172,7 @@ The second line is to offload the model to the GPU for training.
 {% highlight julia %}
 loss(x,y) = crossentropy(model(x),y)
 ps = params(model)
-opt = ADAM(0.005)
+opt = ADAM(0.0005)
 {% endhighlight %}
 
 We define the loss function, cross-entropy (Or categorical cross-entropy in TensorFlow terms), as well as the optimizer ADAM at learning rate 0.0005. We'll also need to define the parameters of the model for training. We'll only need to define this once.
