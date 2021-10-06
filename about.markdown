@@ -3,16 +3,11 @@ layout: default
 title: About
 permalink: /about/
 ---
+I'm a physics masters graduate interested in computation in science, especially machine learning. Be sure to check out my posts!
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Sample projects:
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
++ [Analytical system solver in Python](https://github.com/qfl3x/OSE)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
++ [Parralelizable HPP model implementation in Julia](https://github.com/qfl3x/HPP_model)
 
-
-[jekyll-organization]: https://github.com/jekyll
