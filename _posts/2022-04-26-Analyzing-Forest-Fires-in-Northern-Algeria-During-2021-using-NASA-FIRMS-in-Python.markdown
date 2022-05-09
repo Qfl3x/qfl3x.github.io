@@ -3,6 +3,11 @@ layout: post
 title:  "Analyzing Forest Fires in Northern Algeria during 2021 using NASA FIRMS data in Python"
 date:   2022-05-09 12:15 +0100
 categories: Python GIS
+image:
+  path: /assets/totalfiresurfaceprovince.png
+  height: 200
+  width: 1250
+
 ---
 ![Final Gif]({{ "/assets/totalfiresurfaceprovince.png" }}){:width="1250"}
 
