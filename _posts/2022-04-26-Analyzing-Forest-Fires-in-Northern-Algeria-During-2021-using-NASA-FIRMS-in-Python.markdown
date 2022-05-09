@@ -6,7 +6,7 @@ categories: Python GIS
 image:
   path: /assets/totalfiresurfaceprovince.png
   height: 100
-  width: 250
+  width: 100
 
 ---
 ![Final Gif]({{ "/assets/totalfiresurfaceprovince.png" }}){:width="1250"}
