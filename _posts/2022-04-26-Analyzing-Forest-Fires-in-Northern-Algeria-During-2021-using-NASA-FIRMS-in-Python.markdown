@@ -5,8 +5,8 @@ date:   2022-05-09 12:15 +0100
 categories: Python GIS
 image:
   path: /assets/totalfiresurfaceprovince.png
-  height: 100
-  width: 100
+  height: 630
+  width: 1200
 
 ---
 ![Final Gif]({{ "/assets/totalfiresurfaceprovince.png" }}){:width="1250"}
