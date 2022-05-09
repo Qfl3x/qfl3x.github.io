@@ -255,8 +255,6 @@ x_ticks = [pd.Timestamp(f"2021-{month}-{day}") for month in range(7,9) for day i
 ax.plot(area_sums.index, area_sums)
 ax.set_ylabel(r'$km^2$', fontsize=12)
 ax.set_xlabel('date', fontsize=12)
-#ax.set_yticks(range(0,180,20), minor=False)
-#ax.set_yticks(range(0,183,5), minor=True)
 ax.set_xticks(x_ticks, minor=False)
 ax.set_xlim(left=pd.Timestamp('2021-07-01'), right=pd.Timestamp('2021-09-01'))
 ax.set_xticklabels([f"  Fri.\n {x.month}-{x.day}" for x in x_ticks])
@@ -371,10 +369,8 @@ for date in pd.date_range(start='2021-08-08', end='2021-08-15', freq='D'):
         axins.set_xlim(left=pd.Timestamp('2021-07-20'), right=pd.Timestamp(f"2021-{date.month}-{date.day}"))
         axins.set_xticklabels([f"  Fri.\n {x.month}-{x.day}" for x in x_ticks])
 
-        chart = fig #fig.get_figure();
-        
-        chart.savefig(f"./imgs/image-{date.day_of_year:03d}-{time}_fires.png", dpi=300);
-        plt.close(chart)
+        fig.savefig(f"./imgs/image-{date.day_of_year:03d}-{time}_fires.png", dpi=300);
+        plt.close(fig)
 ```
 
 The first 2 lines creates a copy of the provincial GeoDataFrame/Map and adds a column `area` to it where we'll put the total area for each province in each frame. We will copy that copy each time we want to create a new frame.
