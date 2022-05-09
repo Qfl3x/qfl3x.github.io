@@ -4,7 +4,7 @@ title:  "Analyzing Forest Fires in Northern Algeria during 2021 using NASA FIRMS
 date:   2022-05-09 12:15 +0100
 categories: Python GIS
 ---
-![Final Gif]({{ "/assets/2021-wildfires.gif" }}){:width="1250"}
+![Final Gif]({{ "/assets/totalfiresurfaceprovince.png" }}){:width="1250"}
 
 In this post, I will be using [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov) data in Python. The goal is to get a reading on the surface on fire in each province as a function of time. I'll be introducing:
 
