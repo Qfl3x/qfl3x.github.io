@@ -473,3 +473,6 @@ maxfrp_gdf.date = maxfrp_gdf.date.apply(str)
 firemask_gdf.loc[firemask_gdf.DN >= 7].to_file('NE_2021.gpkg', layer='FireMask', driver="GPKG")
 maxfrp_gdf.to_file('NE_2021.gpkg', layer='MaxFRP', driver="GPKG
 ```
+
+
+All files can be found at: https://github.com/Qfl3x/wildfire-analysis.git
