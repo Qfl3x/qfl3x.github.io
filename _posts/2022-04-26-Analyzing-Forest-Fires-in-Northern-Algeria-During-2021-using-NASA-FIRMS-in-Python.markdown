@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analyzing Forest Fires in Northern Algeria during 2021 using NASA FIRMS data in Python"
-date:   2021-09-15 11:31:00 +0100
+date:   2022-05-09 12:15 +0100
 categories: Python GIS
 ---
 
