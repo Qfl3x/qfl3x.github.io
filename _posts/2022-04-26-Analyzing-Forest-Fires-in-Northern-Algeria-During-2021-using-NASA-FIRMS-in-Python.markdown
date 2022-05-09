@@ -2,7 +2,7 @@
 layout: post
 title:  "Analyzing Forest Fires in Northern Algeria during 2021 using NASA FIRMS data in Python"
 date:   2021-09-15 11:31:00 +0100
-categories: Julia Flux ML
+categories: Python GIS
 ---
 
 In this post, I will be using [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov) data in Python. The goal is to get a reading on the surface on fire in each province as a function of time. I'll be introducing:
